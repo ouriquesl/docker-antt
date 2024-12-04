@@ -1,5 +1,5 @@
 # Use a imagem base especificada no seu docker-compose
-FROM registry.antt.gov.br/geoserver/geoserver:2.25.3
+FROM geoserver/geoserver:2.25.3
 
 # Configure as variáveis de ambiente (opcional se já estão configuradas no Render)
 #ENV GEOSERVER_ADMIN_PASSWORD=admin
